@@ -1,0 +1,219 @@
+﻿生成启动时间为 2023/4/14 23:38:29。
+     1>项目“Z:\Desktop\VSProject\PlayVoip\PlayVoip\PlayVoip.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\PlayVoip.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\SilkCodec\SilkCodec.cpp AudioPlay.cpp VoipFun.cpp dlgProc.cpp
+         SilkCodec.cpp
+     1>..\SilkCodec\SilkCodec.cpp(112): warning C4101: “speechOutFile”: 未引用的局部变量
+         AudioPlay.cpp
+         VoipFun.cpp
+     1>VoipFun.cpp(1364): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>VoipFun.cpp(1364): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>VoipFun.cpp(1437): warning C4101: “tmpdata”: 未引用的局部变量
+         dlgProc.cpp
+         所有输出均为最新。
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\VoipPlay.res" ..\Resource\VoipPlay.rc 
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\PlayVoip.res" PlayVoip.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Desktop\VSProject\PlayVoip\Release\PlayVoip.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:"Release\PlayVoip.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Desktop\VSProject\PlayVoip\Release\PlayVoip.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Desktop\VSProject\PlayVoip\Release\PlayVoip.lib" /MACHINE:X86 Release\VoipPlay.res
+         Release\PlayVoip.res
+         Release\SilkCodec.obj
+         Release\SKP_Silk_A2NLSF.obj
+         Release\SKP_Silk_allpass_int.obj
+         Release\SKP_Silk_allpass_int_FLP.obj
+         Release\SKP_Silk_ana_filt_bank_1.obj
+         Release\SKP_Silk_apply_sine_window.obj
+         Release\SKP_Silk_apply_sine_window_FLP.obj
+         Release\SKP_Silk_array_maxabs.obj
+         Release\SKP_Silk_autocorr.obj
+         Release\SKP_Silk_autocorrelation_FLP.obj
+         Release\SKP_Silk_biquad.obj
+         Release\SKP_Silk_biquad_alt.obj
+         Release\SKP_Silk_burg_modified.obj
+         Release\SKP_Silk_burg_modified_FLP.obj
+         Release\SKP_Silk_bwexpander.obj
+         Release\SKP_Silk_bwexpander_32.obj
+         Release\SKP_Silk_bwexpander_FLP.obj
+         Release\SKP_Silk_CNG.obj
+         Release\SKP_Silk_code_signs.obj
+         Release\SKP_Silk_control_codec_FIX.obj
+         Release\SKP_Silk_control_codec_FLP.obj
+         Release\SKP_Silk_corrMatrix_FIX.obj
+         Release\SKP_Silk_corrMatrix_FLP.obj
+         Release\SKP_Silk_create_init_destroy.obj
+         Release\SKP_Silk_decimate2_coarsest_FLP.obj
+         Release\SKP_Silk_decimate2_coarse_FLP.obj
+         Release\SKP_Silk_decoder_set_fs.obj
+         Release\SKP_Silk_decode_core.obj
+         Release\SKP_Silk_decode_frame.obj
+         Release\SKP_Silk_decode_parameters.obj
+         Release\SKP_Silk_decode_pitch.obj
+         Release\SKP_Silk_decode_pulses.obj
+         Release\SKP_Silk_dec_API.obj
+         Release\SKP_Silk_detect_SWB_input.obj
+         Release\SKP_Silk_encode_frame_FIX.obj
+         Release\SKP_Silk_encode_frame_FLP.obj
+         Release\SKP_Silk_encode_parameters.obj
+         Release\SKP_Silk_encode_pulses.obj
+         Release\SKP_Silk_enc_API.obj
+         Release\SKP_Silk_energy_FLP.obj
+         Release\SKP_Silk_find_LPC_FIX.obj
+         Release\SKP_Silk_find_LPC_FLP.obj
+         Release\SKP_Silk_find_LTP_FIX.obj
+         Release\SKP_Silk_find_LTP_FLP.obj
+         Release\SKP_Silk_find_pitch_lags_FIX.obj
+         Release\SKP_Silk_find_pitch_lags_FLP.obj
+         Release\SKP_Silk_find_pred_coefs_FIX.obj
+         Release\SKP_Silk_find_pred_coefs_FLP.obj
+         Release\SKP_Silk_gain_quant.obj
+         Release\SKP_Silk_HP_variable_cutoff_FIX.obj
+         Release\SKP_Silk_HP_variable_cutoff_FLP.obj
+         Release\SKP_Silk_init_encoder_FIX.obj
+         Release\SKP_Silk_init_encoder_FLP.obj
+         Release\SKP_Silk_inner_product_FLP.obj
+         Release\SKP_Silk_inner_prod_aligned.obj
+         Release\SKP_Silk_interpolate.obj
+         Release\SKP_Silk_k2a.obj
+         Release\SKP_Silk_k2a_FLP.obj
+         Release\SKP_Silk_k2a_Q16.obj
+         Release\SKP_Silk_LBRR_reset.obj
+         Release\SKP_Silk_levinsondurbin_FLP.obj
+         Release\SKP_Silk_lin2log.obj
+         Release\SKP_Silk_log2lin.obj
+         Release\SKP_Silk_lowpass_int.obj
+         Release\SKP_Silk_lowpass_short.obj
+         Release\SKP_Silk_LPC_analysis_filter_FLP.obj
+         Release\SKP_Silk_LPC_inv_pred_gain.obj
+         Release\SKP_Silk_LPC_inv_pred_gain_FLP.obj
+         Release\SKP_Silk_LPC_stabilize.obj
+         Release\SKP_Silk_LPC_synthesis_filter.obj
+         Release\SKP_Silk_LPC_synthesis_order16.obj
+         Release\SKP_Silk_LP_variable_cutoff.obj
+         Release\SKP_Silk_LSF_cos_table.obj
+         Release\SKP_Silk_LTP_analysis_filter_FIX.obj
+         Release\SKP_Silk_LTP_analysis_filter_FLP.obj
+         Release\SKP_Silk_LTP_scale_ctrl_FIX.obj
+         Release\SKP_Silk_LTP_scale_ctrl_FLP.obj
+         Release\SKP_Silk_MA.obj
+         Release\SKP_Silk_NLSF2A.obj
+         Release\SKP_Silk_NLSF2A_stable.obj
+         Release\SKP_Silk_NLSF_MSVQ_decode.obj
+         Release\SKP_Silk_NLSF_MSVQ_decode_FLP.obj
+         Release\SKP_Silk_NLSF_MSVQ_encode_FIX.obj
+         Release\SKP_Silk_NLSF_MSVQ_encode_FLP.obj
+         Release\SKP_Silk_NLSF_stabilize.obj
+         Release\SKP_Silk_NLSF_VQ_rate_distortion_FIX.obj
+         Release\SKP_Silk_NLSF_VQ_rate_distortion_FLP.obj
+         Release\SKP_Silk_NLSF_VQ_sum_error_FIX.obj
+         Release\SKP_Silk_NLSF_VQ_sum_error_FLP.obj
+         Release\SKP_Silk_NLSF_VQ_weights_laroia.obj
+         Release\SKP_Silk_NLSF_VQ_weights_laroia_FLP.obj
+         Release\SKP_Silk_noise_shape_analysis_FIX.obj
+         Release\SKP_Silk_noise_shape_analysis_FLP.obj
+         Release\SKP_Silk_NSQ.obj
+         Release\SKP_Silk_NSQ_del_dec.obj
+         Release\SKP_Silk_pitch_analysis_core.obj
+         Release\SKP_Silk_pitch_analysis_core_FLP.obj
+         Release\SKP_Silk_pitch_est_tables.obj
+         Release\SKP_Silk_PLC.obj
+         Release\SKP_Silk_prefilter_FIX.obj
+         Release\SKP_Silk_prefilter_FLP.obj
+         Release\SKP_Silk_process_gains_FIX.obj
+         Release\SKP_Silk_process_gains_FLP.obj
+         Release\SKP_Silk_process_NLSFs_FIX.obj
+         Release\SKP_Silk_process_NLSFs_FLP.obj
+         Release\SKP_Silk_quant_LTP_gains_FIX.obj
+         Release\SKP_Silk_quant_LTP_gains_FLP.obj
+         Release\SKP_Silk_range_coder.obj
+         Release\SKP_Silk_regularize_correlations_FIX.obj
+         Release\SKP_Silk_regularize_correlations_FLP.obj
+         Release\SKP_Silk_resampler.obj
+         Release\SKP_Silk_resampler_down2.obj
+         Release\SKP_Silk_resampler_down2_3.obj
+         Release\SKP_Silk_resampler_down3.obj
+         Release\SKP_Silk_resampler_private_AR2.obj
+         Release\SKP_Silk_resampler_private_ARMA4.obj
+         Release\SKP_Silk_resampler_private_copy.obj
+         Release\SKP_Silk_resampler_private_down4.obj
+         Release\SKP_Silk_resampler_private_down_FIR.obj
+         Release\SKP_Silk_resampler_private_IIR_FIR.obj
+         Release\SKP_Silk_resampler_private_up2_HQ.obj
+         Release\SKP_Silk_resampler_private_up4.obj
+         Release\SKP_Silk_resampler_rom.obj
+         Release\SKP_Silk_resampler_up2.obj
+         Release\SKP_Silk_residual_energy16_FIX.obj
+         Release\SKP_Silk_residual_energy_FIX.obj
+         Release\SKP_Silk_residual_energy_FLP.obj
+         Release\SKP_Silk_scale_copy_vector16.obj
+         Release\SKP_Silk_scale_copy_vector_FLP.obj
+         Release\SKP_Silk_scale_vector.obj
+         Release\SKP_Silk_scale_vector_FLP.obj
+         Release\SKP_Silk_schur.obj
+         Release\SKP_Silk_schur64.obj
+         Release\SKP_Silk_schur_FLP.obj
+         Release\SKP_Silk_shell_coder.obj
+         Release\SKP_Silk_sigm_Q15.obj
+         Release\SKP_Silk_solve_LS_FIX.obj
+         Release\SKP_Silk_solve_LS_FLP.obj
+         Release\SKP_Silk_sort.obj
+         Release\SKP_Silk_sort_FLP.obj
+         Release\SKP_Silk_sum_sqr_shift.obj
+         Release\SKP_Silk_tables_gain.obj
+         Release\SKP_Silk_tables_LTP.obj
+         Release\SKP_Silk_tables_NLSF_CB0_10.obj
+         Release\SKP_Silk_tables_NLSF_CB0_10_FLP.obj
+         Release\SKP_Silk_tables_NLSF_CB0_16.obj
+         Release\SKP_Silk_tables_NLSF_CB0_16_FLP.obj
+         Release\SKP_Silk_tables_NLSF_CB1_10.obj
+         Release\SKP_Silk_tables_NLSF_CB1_10_FLP.obj
+         Release\SKP_Silk_tables_NLSF_CB1_16.obj
+         Release\SKP_Silk_tables_NLSF_CB1_16_FLP.obj
+         Release\SKP_Silk_tables_other.obj
+         Release\SKP_Silk_tables_other_FLP.obj
+         Release\SKP_Silk_tables_pitch_lag.obj
+         Release\SKP_Silk_tables_pulses_per_block.obj
+         Release\SKP_Silk_tables_sign.obj
+         Release\SKP_Silk_tables_type_offset.obj
+         Release\SKP_Silk_VAD.obj
+         Release\SKP_Silk_VQ_nearest_neighbor_FIX.obj
+         Release\SKP_Silk_VQ_nearest_neighbor_FLP.obj
+         Release\SKP_Silk_wrappers_FLP.obj
+         Release\AudioPlay.obj
+         Release\dlgProc.obj
+         Release\main.obj
+         Release\Utils.obj
+         Release\VoipFun.obj /NODEFAULTLIB:LIBC.lib /SAFESEH:NO /NODEFAULTLIB:msvcrtd.lib 
+     1>CodecG723.lib(decode.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+         正在生成代码
+         已完成代码的生成
+     1>CodecG723.lib(decode.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(decode.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g711.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g711.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g721.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g721.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g723_24.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g723_24.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g723_40.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g723_40.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g72x.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g72x.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Add.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Add.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Decode.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Decode.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Gsm_crea.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Gsm_crea.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Gsm_deco.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Gsm_deco.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Gsm_dest.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Gsm_dest.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(GSM_OPTI.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(GSM_OPTI.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(LONG_TER.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(LONG_TER.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(RPE.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(RPE.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(SHORT_TE.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(SHORT_TE.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(TABLE.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(TABLE.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>AMR.lib(interf_dec.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“AMR.lib(interf_dec.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>AMR.lib(sp_dec.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“AMR.lib(sp_dec.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Release\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         PlayVoip.vcxproj -> Z:\Desktop\VSProject\PlayVoip\Release\PlayVoip.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\Desktop\VSProject\PlayVoip\Release\PlayVoip.exe;#1" /manifest Release\PlayVoip.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\PlayVoip.unsuccessfulbuild”。
+         正在对“Release\PlayVoip.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“Z:\Desktop\VSProject\PlayVoip\PlayVoip\PlayVoip.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.06

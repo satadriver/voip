@@ -1,0 +1,179 @@
+#include "resource.h"
+#define  IDD_DIALOG			0X2000
+#define  IDC_OPENFILE		0X2001
+#define  IDC_PLAY			0X2002
+#define	 IDC_PAUSE			0X2003
+#define  IDC_RESUME			0x2004
+#define  IDC_STOP			0x2005
+#define  IDC_QUIT			0x2006
+#define	 IDC_SPEED			0x2007
+#define  IDC_REWIND			0x2008
+#define  IDC_OPENDIRNAME	0X2009
+#define  IDC_FILEDIR		0x200a
+
+#define  IDC_PLAYCURRENTTIME		0x2015
+#define  IDC_CURRENTTIME			0x2016
+#define  IDC_PLAYAUDIOTIME			0x2017
+#define  IDC_AUDIOTIME				0x2018
+
+#define  IDC_PLAYCALLERTIME			0X2019
+#define  IDC_CALLERTIME				0X201A
+#define  IDC_PLAYCALLEETIME			0X201B	
+#define  IDC_CALLEETIME				0X201C
+
+#define  IDC_BMPFRAME				0X201D
+
+
+
+
+
+#define	IDM_MAIN			0X2020
+#define  IDM_5				0x2021
+#define  IDM_10				0x2022
+#define  IDM_15				0x2023
+#define  IDM_20				0x2024
+#define  IDM_30				0x2025
+#define  IDM_PIC_BLISS		0x2028
+#define  IDM_PIC_AZUL		0X2029
+#define  IDM_OPENFILE		0X202A
+#define	 IDM_QUIT			0X202B 
+#define  IDM_ABOUT			0x202c
+#define	 IDM_LOOPON			0X202E
+#define  IDM_LOOPOFF		0X202F
+#define  IDM_VOLUMEUP		0X2030
+#define  IDM_VOLUMEDOWN		0X2031
+#define	 IDM_SOFTWARE		0X2032
+
+
+
+#define  IDB_BMPBACK_BLISS		0X20A0
+#define  IDB_BMPBACK_AZUL		0X20A1
+#define	 ICON_MAIN				0X2080
+
+
+
+
+IDB_BMPBACK_AZUL		BITMAP	"..\\resource\\Back_azul.bmp"
+IDB_BMPBACK_BLISS		BITMAP	"..\\resource\\Back_bliss.bmp"
+ICON_MAIN				ICON	"..\\resource\\main.ico"
+
+
+
+
+
+1 VERSIONINFO
+FILEVERSION 2014,4,29,0
+PRODUCTVERSION 2014,4,29,0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+{
+	BLOCK "VarFileInfo"
+	{
+		VALUE "Translation",0x804,0x4b0
+	}
+
+	BLOCK "StringFileInfo"
+	{
+		BLOCK "080404b0"
+		{
+			VALUE "Comments","VOIP语音播放器\0"
+			VALUE "CompanyName","济南诚方网络科技有限公司\0"
+			VALUE "FileDescription","VOIP语音播放器\0"
+			VALUE "FileVersion","2014.4.29\0"
+			VALUE "ProductName","VOIP语音播放器\0"
+			VALUE "ProductVersion","2014.4.29\0"
+			VALUE "LegalCopyright","济南诚方网络科技有限公司\0"
+			VALUE "LegalTradeMarks","济南诚方网络科技有限公司\0"
+			VALUE "ProductName","VOIP语音播放器\0"
+		}
+	}
+}
+
+
+
+
+
+IDM_MAIN menu discardable
+{
+	popup "文件"
+	{
+		menuitem "打开文件",IDM_OPENFILE
+		menuitem separator
+		menuitem "关闭程序",IDM_QUIT
+	}
+		
+	popup "时间间隔"
+	{
+		menuitem "设置快进和后退的间隔为5秒",IDM_5
+		menuitem separator
+		menuitem "设置快进和后退的间隔为10秒",IDM_10
+		menuitem separator
+		menuitem "设置快进和后退的间隔为15秒",IDM_15
+		menuitem separator
+		menuitem "设置快进和后退的间隔为20秒",IDM_20
+		menuitem separator
+		menuitem "设置快进和后退的间隔为30秒",IDM_30
+	}
+
+	POPUP "播放循环"
+	{
+		MENUITEM "播放循环开启",IDM_LOOPON
+		MENUITEM "播放循环关闭",IDM_LOOPOFF
+	}
+
+	POPUP "音量控制"
+	{
+		menuitem "音量增加",IDM_VOLUMEUP
+		MENUITEM "音量减小",IDM_VOLUMEDOWN
+	}
+
+// 	popup "背景图片"
+// 	{
+// 		menuitem "背景图片\t海边",IDM_PIC_AZUL
+// 		menuitem separator
+// 		menuitem "背景图片\t草原",IDM_PIC_BLISS
+// 	}
+
+	popup "关于本程序",help
+	{
+		menuitem "VOIP音频播放器介绍",IDM_ABOUT
+		menuitem "支持的软件",IDM_SOFTWARE
+	}
+};
+
+
+
+
+
+
+
+IDD_DIALOG DIALOG 100, 100, 400, 200
+STYLE  WS_EX_WINDOWEDGE |WS_POPUP | WS_CAPTION |WS_SYSMENU | WS_THICKFRAME | DS_MODALFRAME |WS_MINIMIZEBOX |WS_MAXIMIZEBOX
+CAPTION "NetSpy VoipPlayer"
+FONT 9, "宋体"
+{
+	CONTROL IDB_BMPBACK_AZUL,IDC_BMPFRAME,"Static",14,0,0,380,200//水平方向为指定值的2倍，垂直方向为指定值
+
+    PUSHBUTTON		"文件名称",IDC_FILEDIR,			20,30,40,20,BS_FLAT
+    EDITTEXT        IDC_OPENDIRNAME,				60,30,330,20,WS_BORDER |ES_MULTILINE 
+
+	LTEXT			"预计播放秒数:",IDC_PLAYAUDIOTIME,	140,60,80,10
+	LTEXT			"0",IDC_AUDIOTIME,					220,60,20,10	
+	LTEXT			"当前播放秒数:",IDC_PLAYCURRENTTIME,140,80,80,10
+	LTEXT			"0",IDC_CURRENTTIME,				220,80,20,10
+
+	LTEXT			"主叫播放秒数:",IDC_PLAYCALLERTIME,	140,100,80,10
+	LTEXT			"0",IDC_CALLERTIME,					220,100,20,10	
+	LTEXT			"被叫播放秒数:",IDC_PLAYCALLEETIME,	140,120,80,10
+	LTEXT			"0",IDC_CALLEETIME,					220,120,20,10
+
+    PUSHBUTTON      "打开文件",IDC_OPENFILE,		30,160,35,20	//weight 35,height 20
+    PUSHBUTTON      "播放",IDC_PLAY,				80,160,35,20
+    PUSHBUTTON	    "前进",IDC_SPEED,				130,160,35,20
+    PUSHBUTTON      "后退",IDC_REWIND,				180,160,35,20
+    PUSHBUTTON      "暂停",IDC_PAUSE,				230,160,35,20
+    PUSHBUTTON	    "恢复",IDC_RESUME,				280,160,35,20
+    PUSHBUTTON	    "停止",IDC_STOP,				330,160,35,20
+}
+
+

@@ -1,0 +1,210 @@
+﻿生成启动时间为 2023/4/14 23:27:45。
+     1>项目“Z:\Desktop\VSProject\PlayVoip\PlayVoip\PlayVoip.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\PlayVoip.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\VoipPlay.res" ..\Resource\VoipPlay.rc 
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\PlayVoip.res" PlayVoip.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Desktop\VSProject\PlayVoip\Debug\PlayVoip.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:"Debug\PlayVoip.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Desktop\VSProject\PlayVoip\Debug\PlayVoip.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Desktop\VSProject\PlayVoip\Debug\PlayVoip.lib" /MACHINE:X86 Debug\VoipPlay.res
+         Debug\PlayVoip.res
+         Debug\SilkCodec.obj
+         Debug\SKP_Silk_A2NLSF.obj
+         Debug\SKP_Silk_allpass_int.obj
+         Debug\SKP_Silk_allpass_int_FLP.obj
+         Debug\SKP_Silk_ana_filt_bank_1.obj
+         Debug\SKP_Silk_apply_sine_window.obj
+         Debug\SKP_Silk_apply_sine_window_FLP.obj
+         Debug\SKP_Silk_array_maxabs.obj
+         Debug\SKP_Silk_autocorr.obj
+         Debug\SKP_Silk_autocorrelation_FLP.obj
+         Debug\SKP_Silk_biquad.obj
+         Debug\SKP_Silk_biquad_alt.obj
+         Debug\SKP_Silk_burg_modified.obj
+         Debug\SKP_Silk_burg_modified_FLP.obj
+         Debug\SKP_Silk_bwexpander.obj
+         Debug\SKP_Silk_bwexpander_32.obj
+         Debug\SKP_Silk_bwexpander_FLP.obj
+         Debug\SKP_Silk_CNG.obj
+         Debug\SKP_Silk_code_signs.obj
+         Debug\SKP_Silk_control_codec_FIX.obj
+         Debug\SKP_Silk_control_codec_FLP.obj
+         Debug\SKP_Silk_corrMatrix_FIX.obj
+         Debug\SKP_Silk_corrMatrix_FLP.obj
+         Debug\SKP_Silk_create_init_destroy.obj
+         Debug\SKP_Silk_decimate2_coarsest_FLP.obj
+         Debug\SKP_Silk_decimate2_coarse_FLP.obj
+         Debug\SKP_Silk_decoder_set_fs.obj
+         Debug\SKP_Silk_decode_core.obj
+         Debug\SKP_Silk_decode_frame.obj
+         Debug\SKP_Silk_decode_parameters.obj
+         Debug\SKP_Silk_decode_pitch.obj
+         Debug\SKP_Silk_decode_pulses.obj
+         Debug\SKP_Silk_dec_API.obj
+         Debug\SKP_Silk_detect_SWB_input.obj
+         Debug\SKP_Silk_encode_frame_FIX.obj
+         Debug\SKP_Silk_encode_frame_FLP.obj
+         Debug\SKP_Silk_encode_parameters.obj
+         Debug\SKP_Silk_encode_pulses.obj
+         Debug\SKP_Silk_enc_API.obj
+         Debug\SKP_Silk_energy_FLP.obj
+         Debug\SKP_Silk_find_LPC_FIX.obj
+         Debug\SKP_Silk_find_LPC_FLP.obj
+         Debug\SKP_Silk_find_LTP_FIX.obj
+         Debug\SKP_Silk_find_LTP_FLP.obj
+         Debug\SKP_Silk_find_pitch_lags_FIX.obj
+         Debug\SKP_Silk_find_pitch_lags_FLP.obj
+         Debug\SKP_Silk_find_pred_coefs_FIX.obj
+         Debug\SKP_Silk_find_pred_coefs_FLP.obj
+         Debug\SKP_Silk_gain_quant.obj
+         Debug\SKP_Silk_HP_variable_cutoff_FIX.obj
+         Debug\SKP_Silk_HP_variable_cutoff_FLP.obj
+         Debug\SKP_Silk_init_encoder_FIX.obj
+         Debug\SKP_Silk_init_encoder_FLP.obj
+         Debug\SKP_Silk_inner_product_FLP.obj
+         Debug\SKP_Silk_inner_prod_aligned.obj
+         Debug\SKP_Silk_interpolate.obj
+         Debug\SKP_Silk_k2a.obj
+         Debug\SKP_Silk_k2a_FLP.obj
+         Debug\SKP_Silk_k2a_Q16.obj
+         Debug\SKP_Silk_LBRR_reset.obj
+         Debug\SKP_Silk_levinsondurbin_FLP.obj
+         Debug\SKP_Silk_lin2log.obj
+         Debug\SKP_Silk_log2lin.obj
+         Debug\SKP_Silk_lowpass_int.obj
+         Debug\SKP_Silk_lowpass_short.obj
+         Debug\SKP_Silk_LPC_analysis_filter_FLP.obj
+         Debug\SKP_Silk_LPC_inv_pred_gain.obj
+         Debug\SKP_Silk_LPC_inv_pred_gain_FLP.obj
+         Debug\SKP_Silk_LPC_stabilize.obj
+         Debug\SKP_Silk_LPC_synthesis_filter.obj
+         Debug\SKP_Silk_LPC_synthesis_order16.obj
+         Debug\SKP_Silk_LP_variable_cutoff.obj
+         Debug\SKP_Silk_LSF_cos_table.obj
+         Debug\SKP_Silk_LTP_analysis_filter_FIX.obj
+         Debug\SKP_Silk_LTP_analysis_filter_FLP.obj
+         Debug\SKP_Silk_LTP_scale_ctrl_FIX.obj
+         Debug\SKP_Silk_LTP_scale_ctrl_FLP.obj
+         Debug\SKP_Silk_MA.obj
+         Debug\SKP_Silk_NLSF2A.obj
+         Debug\SKP_Silk_NLSF2A_stable.obj
+         Debug\SKP_Silk_NLSF_MSVQ_decode.obj
+         Debug\SKP_Silk_NLSF_MSVQ_decode_FLP.obj
+         Debug\SKP_Silk_NLSF_MSVQ_encode_FIX.obj
+         Debug\SKP_Silk_NLSF_MSVQ_encode_FLP.obj
+         Debug\SKP_Silk_NLSF_stabilize.obj
+         Debug\SKP_Silk_NLSF_VQ_rate_distortion_FIX.obj
+         Debug\SKP_Silk_NLSF_VQ_rate_distortion_FLP.obj
+         Debug\SKP_Silk_NLSF_VQ_sum_error_FIX.obj
+         Debug\SKP_Silk_NLSF_VQ_sum_error_FLP.obj
+         Debug\SKP_Silk_NLSF_VQ_weights_laroia.obj
+         Debug\SKP_Silk_NLSF_VQ_weights_laroia_FLP.obj
+         Debug\SKP_Silk_noise_shape_analysis_FIX.obj
+         Debug\SKP_Silk_noise_shape_analysis_FLP.obj
+         Debug\SKP_Silk_NSQ.obj
+         Debug\SKP_Silk_NSQ_del_dec.obj
+         Debug\SKP_Silk_pitch_analysis_core.obj
+         Debug\SKP_Silk_pitch_analysis_core_FLP.obj
+         Debug\SKP_Silk_pitch_est_tables.obj
+         Debug\SKP_Silk_PLC.obj
+         Debug\SKP_Silk_prefilter_FIX.obj
+         Debug\SKP_Silk_prefilter_FLP.obj
+         Debug\SKP_Silk_process_gains_FIX.obj
+         Debug\SKP_Silk_process_gains_FLP.obj
+         Debug\SKP_Silk_process_NLSFs_FIX.obj
+         Debug\SKP_Silk_process_NLSFs_FLP.obj
+         Debug\SKP_Silk_quant_LTP_gains_FIX.obj
+         Debug\SKP_Silk_quant_LTP_gains_FLP.obj
+         Debug\SKP_Silk_range_coder.obj
+         Debug\SKP_Silk_regularize_correlations_FIX.obj
+         Debug\SKP_Silk_regularize_correlations_FLP.obj
+         Debug\SKP_Silk_resampler.obj
+         Debug\SKP_Silk_resampler_down2.obj
+         Debug\SKP_Silk_resampler_down2_3.obj
+         Debug\SKP_Silk_resampler_down3.obj
+         Debug\SKP_Silk_resampler_private_AR2.obj
+         Debug\SKP_Silk_resampler_private_ARMA4.obj
+         Debug\SKP_Silk_resampler_private_copy.obj
+         Debug\SKP_Silk_resampler_private_down4.obj
+         Debug\SKP_Silk_resampler_private_down_FIR.obj
+         Debug\SKP_Silk_resampler_private_IIR_FIR.obj
+         Debug\SKP_Silk_resampler_private_up2_HQ.obj
+         Debug\SKP_Silk_resampler_private_up4.obj
+         Debug\SKP_Silk_resampler_rom.obj
+         Debug\SKP_Silk_resampler_up2.obj
+         Debug\SKP_Silk_residual_energy16_FIX.obj
+         Debug\SKP_Silk_residual_energy_FIX.obj
+         Debug\SKP_Silk_residual_energy_FLP.obj
+         Debug\SKP_Silk_scale_copy_vector16.obj
+         Debug\SKP_Silk_scale_copy_vector_FLP.obj
+         Debug\SKP_Silk_scale_vector.obj
+         Debug\SKP_Silk_scale_vector_FLP.obj
+         Debug\SKP_Silk_schur.obj
+         Debug\SKP_Silk_schur64.obj
+         Debug\SKP_Silk_schur_FLP.obj
+         Debug\SKP_Silk_shell_coder.obj
+         Debug\SKP_Silk_sigm_Q15.obj
+         Debug\SKP_Silk_solve_LS_FIX.obj
+         Debug\SKP_Silk_solve_LS_FLP.obj
+         Debug\SKP_Silk_sort.obj
+         Debug\SKP_Silk_sort_FLP.obj
+         Debug\SKP_Silk_sum_sqr_shift.obj
+         Debug\SKP_Silk_tables_gain.obj
+         Debug\SKP_Silk_tables_LTP.obj
+         Debug\SKP_Silk_tables_NLSF_CB0_10.obj
+         Debug\SKP_Silk_tables_NLSF_CB0_10_FLP.obj
+         Debug\SKP_Silk_tables_NLSF_CB0_16.obj
+         Debug\SKP_Silk_tables_NLSF_CB0_16_FLP.obj
+         Debug\SKP_Silk_tables_NLSF_CB1_10.obj
+         Debug\SKP_Silk_tables_NLSF_CB1_10_FLP.obj
+         Debug\SKP_Silk_tables_NLSF_CB1_16.obj
+         Debug\SKP_Silk_tables_NLSF_CB1_16_FLP.obj
+         Debug\SKP_Silk_tables_other.obj
+         Debug\SKP_Silk_tables_other_FLP.obj
+         Debug\SKP_Silk_tables_pitch_lag.obj
+         Debug\SKP_Silk_tables_pulses_per_block.obj
+         Debug\SKP_Silk_tables_sign.obj
+         Debug\SKP_Silk_tables_type_offset.obj
+         Debug\SKP_Silk_VAD.obj
+         Debug\SKP_Silk_VQ_nearest_neighbor_FIX.obj
+         Debug\SKP_Silk_VQ_nearest_neighbor_FLP.obj
+         Debug\SKP_Silk_wrappers_FLP.obj
+         Debug\AudioPlay.obj
+         Debug\dlgProc.obj
+         Debug\main.obj
+         Debug\test.obj
+         Debug\Utils.obj
+         Debug\VoipFun.obj /nodefaultlib:LIBC.lib /NODEFAULTLIB:libcmtd.lib /SAFESEH:NO /NODEFAULTLIB:msvcrtd.lib 
+         LINK : 没有找到 Z:\Desktop\VSProject\PlayVoip\Debug\PlayVoip.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>CodecG723.lib(decode.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(decode.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g711.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g711.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g721.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g721.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g723_24.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g723_24.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g723_40.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g723_40.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecG723.lib(g72x.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecG723.lib(g72x.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Add.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Add.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Decode.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Decode.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Gsm_crea.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Gsm_crea.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Gsm_deco.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Gsm_deco.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(Gsm_dest.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(Gsm_dest.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(GSM_OPTI.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(GSM_OPTI.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(LONG_TER.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(LONG_TER.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(RPE.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(RPE.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(SHORT_TE.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(SHORT_TE.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>CodecGSM.lib(TABLE.OBJ) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“CodecGSM.lib(TABLE.OBJ)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>AMR.lib(interf_dec.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“AMR.lib(interf_dec.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>AMR.lib(sp_dec.obj) : warning LNK4099: 未找到 PDB“vc60.pdb”(使用“AMR.lib(sp_dec.obj)”或在“Z:\Desktop\VSProject\PlayVoip\Debug\vc60.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         PlayVoip.vcxproj -> Z:\Desktop\VSProject\PlayVoip\Debug\PlayVoip.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\Desktop\VSProject\PlayVoip\Debug\PlayVoip.exe;#1" /manifest Debug\PlayVoip.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\PlayVoip.unsuccessfulbuild”。
+         正在对“Debug\PlayVoip.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“Z:\Desktop\VSProject\PlayVoip\PlayVoip\PlayVoip.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.30
